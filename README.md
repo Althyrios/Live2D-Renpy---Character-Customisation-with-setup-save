@@ -44,3 +44,29 @@ For each expression, choose the positions of the different Parameters that will 
 
 ![image](https://github.com/user-attachments/assets/3b4e471d-609e-4cf2-94f1-b580ff4abe17)
 
+You can choose as many parmaeters as you want to create the face expressions but I recommand you to use only one or two parameters for "body" and "clothes" expression that will be equip on the character.
+
+Then click on expprt to export the model, the expressions and the poses.
+
+## Step 3: Renpy
+
+Create the a folder for each characters inside /images/characters
+Each folder must contain :
+- The texture atlas of the chracter in its own folder created when exported from Live2D
+- The poses .motion3 files
+- The expressions .exp3 files
+- The main file of your character .moc3
+- A model file .model3
+- A .cdi3 file
+
+Then you can use the classes and functions from this repo to make your own animated character in your Renpy project with customisation
+
+## Step 4: Feedback and "What's not here"
+
+Do not hesitate to give me some feedback, what you didn't understand, what you think is not clear enough... Create a new "Issue"
+
+The code here is NOT using any lipsync or facial expression because I don't use them for now, this will be added in a future update.
+
+In the future I will add a character in this repo so anyone could test it on renpy.
+
+
